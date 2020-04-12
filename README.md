@@ -12,3 +12,5 @@
             - DBOX_GID=1000 
           volumes:
             - <INSERT YOUR HOST FOLDER>:/root/Dropbox 
+
+yo yo yo
