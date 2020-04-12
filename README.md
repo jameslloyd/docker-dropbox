@@ -9,6 +9,6 @@
           image: jameslloyd/dropbox:19.10
           environment:
             - DBOX_UID=1000
-            - DBOX_GID=100 
+            - DBOX_GID=1000 
           volumes:
-            - /sharedfolders/Dropbox:/root/Dropbox 
+            - <INSERT YOUR HOST FOLDER>:/root/Dropbox 
