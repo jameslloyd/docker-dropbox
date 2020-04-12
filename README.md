@@ -1,5 +1,7 @@
 # jameslloyd/dropbox
+Built this as the container (https://hub.docker.com/r/janeczku/dropbox) I had been using was now getting the error:
 
+    mportError: libgthread-2.0.so.0: cannot open shared object file: No such file or directory
 # docker-compose.yaml
     version: "2"
     services:
