@@ -14,5 +14,6 @@ Built this as the container (https://hub.docker.com/r/janeczku/dropbox) I had be
             - DBOX_GID=1000 
           volumes:
             - <INSERT YOUR HOST FOLDER>:/root/Dropbox 
+            - <INSERT YOUR HOST FOLDER>:/root/.dropbox 
 
 yo yo yo
